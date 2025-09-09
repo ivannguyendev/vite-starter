@@ -1,23 +1,45 @@
-# webpack-starter
+# Vite Starter Template
 
-Repo webpack starter
+This is a general-purpose starter template built with Vite and TypeScript. It provides a clean and minimal setup for quickly starting new projects.
 
 ## Installation
 
-Installation is done using the [npm install command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+To use this starter template, clone the repository and install the dependencies:
+
+```bash
+git clone [repository-url] my-new-project
+cd my-new-project
+npm install # or yarn install
+```
 
 ## Quick start
 
-The quickest way is started with [expressjs](http://expressjs.com/en/starter/installing.html) . If you haven't seen let's follow [installing guide ](http://expressjs.com/en/starter/installing.html)
+You can add your main application logic in `src/main.ts`.
 
-## TODO
+```typescript
+import { main } from './src/main';
 
-✅ Create new repo
+main(); // Call your main function
+```
 
-## Thank you
+## Usage
 
-- [Github](https://github.com/)
+### Run
+
+To run the development server:
+
+```bash
+npm run dev # or yarn dev
+```
+
+### Build
+
+To build the project for production:
+
+```bash
+npm run build # or yarn build
+```
 
 ## License
-
+This project is released under the MIT License. Feel free to use, modify, and distribute it as you see fit.
 [MIT](https://opensource.org/licenses/MIT)

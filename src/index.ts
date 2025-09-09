@@ -1,1 +1,1 @@
-export const starter = true;
+export * from './main';
